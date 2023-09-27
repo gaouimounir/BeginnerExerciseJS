@@ -11,7 +11,7 @@
 <body>
 
     <!-- Exo 1 -->
-        <label for="tache"><input id="tache" type="text" placeholder="Ajoutez une tache"></label>
+        <label for="tache"><input id="tache" type="text" placeholder="Ajoutez une tache"/></label>
         <button onclick="addTache()" type="button">Ajoutez</button>
 
         <h2>Taches :</h2>
@@ -19,11 +19,24 @@
         <ul id="liste">
         </ul>
 
-       <!--  Exo 2 -->
+    <!--  Exo 2 -->
 
 
-    <img id="image" src="https://i.pinimg.com/originals/d8/6f/ec/d86fec7236e22259ebc837a462cc3d40.jpg" style="width: 500px;" alt="">
-    <button onclick="cacherImg()" type="button">Cacher/Montrer</button>
+        <img id="image" src="https://i.pinimg.com/originals/d8/6f/ec/d86fec7236e22259ebc837a462cc3d40.jpg" style="width: 25%" alt="">
+        <button onclick="cacherImg()" type="button">Cacher/Montrer</button>
+
+    <!-- Exo 3 -->
+
+    <br>
+    <label for=""><input type="text" id="search-input" placeholder="Choisir un plat"/></label>
+    <button type="button" onclick="search()">Rechercher</button>
+    <ul id="list">
+        <li>Kebab</li>
+        <li>Panini</li>
+        <li>Pizza</li>
+        <li>Hamburger</li>
+    </ul>
+        
 
 
 </body>

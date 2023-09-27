@@ -34,3 +34,18 @@ function cacherImg() {
     document.getElementById("image").style.display = "";
   }
 }
+
+/* Exo 3 */
+
+function search() {
+  let input = document.getElementById("search-input");
+  let list = document.getElementById("list").querySelectorAll("li");
+  let result = new RegExp(input.value, "i");
+
+  list.forEach((item) => {
+    item.innerHTML = item.textContent.replace(
+      result,
+      '<b style="background-color: lightgreen">$&</b>'
+    );
+  });
+}
