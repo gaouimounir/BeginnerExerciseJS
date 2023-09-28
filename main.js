@@ -49,3 +49,13 @@ function search() {
     );
   });
 }
+
+/* Exo 4 */
+
+function choisirTransport() {
+  let selectionList = document.getElementById("select");
+  let oneSelection = selectionList.options[selectionList.selectedIndex].text;
+  document.getElementById("transport").value = oneSelection;
+}
+
+/* Exo 5 */
