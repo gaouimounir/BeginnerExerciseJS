@@ -59,3 +59,9 @@ function choisirTransport() {
 }
 
 /* Exo 5 */
+
+function compter() {
+  let number = document.getElementById("number");
+  let compteur = document.getElementById("compteur").value;
+  number.textContent = compteur.length;
+}
